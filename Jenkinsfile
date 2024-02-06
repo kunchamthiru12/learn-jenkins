@@ -32,8 +32,7 @@ pipeline {
             echo 'this runs when pipeline is failed, used generally to send some alerts'
         }
         success{
-            echo 'I willalways say Hello when pipeline is success
-
+            echo ' i say Hello pipeline is successs'
         }
     }
 }
