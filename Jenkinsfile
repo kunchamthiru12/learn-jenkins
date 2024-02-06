@@ -21,7 +21,10 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                sh"""
+                echo "here I wrote shell script"
+                echo "$GREETTING "
+                """
             }
         }
     }
